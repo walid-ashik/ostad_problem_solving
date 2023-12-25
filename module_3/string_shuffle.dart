@@ -11,13 +11,6 @@ void main() {
 }
 
 String shuffle(String input, List<int> lists) {
-  final outputs = <String>[];
-
-  for (int i = 0; i < lists.length; i++) {
-    final indices = lists[i];
-    outputs.insert(indices, "${input[i]}");
-  }
-
-  print(outputs.toString());
-  return outputs.toString();
+  final map = <int, String>{};
+  for (var i = 0; i < input.length; i++) {}
 }
