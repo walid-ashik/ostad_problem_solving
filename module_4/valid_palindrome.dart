@@ -1,3 +1,7 @@
+/*
+ * Time Complexity - O(n)
+ * Space Complexity - O(n)
+ */
 void main() {
   assert(isPalindrome('') == true);
   assert(isPalindrome('a') == true);
